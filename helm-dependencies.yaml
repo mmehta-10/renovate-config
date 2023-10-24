@@ -111,7 +111,7 @@ dependencies:
         repository: quay.io/jetstack/cert-manager-acmesolver
       source: quay.io/jetstack
       ver:
-        tag: v1.12.1
+        tag: 608111629
     cainjector.image:
       name:
         repository: quay.io/jetstack/cert-manager-cainjector
@@ -124,7 +124,7 @@ dependencies:
         repository: quay.io/jetstack/cert-manager-acmesolver
       source: quay.io/jetstack
       ver:
-        tag: v1.12.1
+        tag: 608111629
     gateway-api-admission.create_or_patch:
       manager: kustomize
       name:
