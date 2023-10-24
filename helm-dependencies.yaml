@@ -30,7 +30,7 @@ dependencies:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/livenessprobe
       source: public.ecr.aws/eks-distro
       ver:
-        tag: v2.10.0-eks-1-27-8
+        tag: v2.11.0-eks-1-28-latest
     sidecars.nodeDriverRegistrar.image:
       name:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/node-driver-registrar
@@ -76,7 +76,7 @@ dependencies:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/livenessprobe
       source: public.ecr.aws/eks-distro
       ver:
-        tag: v2.10.0-eks-1-27-8
+        tag: v2.11.0-eks-1-28-latest
     sidecars.nodeDriverRegistrar.image:
       name:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/node-driver-registrar
