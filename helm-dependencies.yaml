@@ -36,7 +36,7 @@ dependencies:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/node-driver-registrar
       source: public.ecr.aws/eks-distro
       ver:
-        tag: v2.8.0-eks-1-27-8
+        tag: v2.9.0-eks-1-28-latest
     sidecars.provisioner.image:
       name:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/external-provisioner
@@ -82,7 +82,7 @@ dependencies:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/node-driver-registrar
       source: public.ecr.aws/eks-distro
       ver:
-        tag: v2.8.0-eks-1-27-8
+        tag: v2.9.0-eks-1-28-latest
   name: aws-efs-csi-driver
   repository: https://kubernetes-sigs.github.io/aws-efs-csi-driver
   version: 2.4.7
