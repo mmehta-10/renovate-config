@@ -291,7 +291,7 @@ dependencies:
         repository: quay.io/kiwigrid/k8s-sidecar
       source: quay.io
       ver:
-        tag: 1.25.0
+        tag: 1.25.2
     kube-state-metrics.image:
       name:
         repository: kube-state-metrics/kube-state-metrics
