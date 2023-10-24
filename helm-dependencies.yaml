@@ -513,7 +513,7 @@ dependencies:
         repository: quay.io/reactiveops/rbac-manager
       source: quay.io/reactiveops
       ver:
-        tag: v1.6.4
+        tag: 59445888b9923964bf5500aae4f436cd16128ed5-amd64
   name: rbac-manager
   repository: https://charts.fairwinds.com/stable
   version: 1.17.2
