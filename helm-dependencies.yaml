@@ -48,7 +48,7 @@ dependencies:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/external-resizer
       source: public.ecr.aws/eks-distro
       ver:
-        tag: v1.8.0-eks-1-27-8
+        tag: v1.8.0-eks-1-28-latest
     sidecars.snapshotter.image:
       name:
         repository: k8s.gcr.io/sig-storage/csi-snapshotter
