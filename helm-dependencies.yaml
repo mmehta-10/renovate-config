@@ -587,6 +587,6 @@ dependencies:
         repository: us-docker.pkg.dev/fairwinds-ops/oss/goldilocks
       source: us-docker.pkg.dev/fairwinds-ops/oss
       ver:
-        tag: v4.9.0
+        tag: v4.10.1
 name: Handle terraform-kubernetes-addons helm chart dependencies update
 version: 1.0.0
