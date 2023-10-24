@@ -275,7 +275,7 @@ dependencies:
         repository: docker.io/grafana/grafana
       source: docker.io/grafana
       ver:
-        tag: 10.0.2
+        tag: 10.0.9
     grafana.imageRenderer.image:
       name:
         repository: docker.io/grafana/grafana-image-renderer
