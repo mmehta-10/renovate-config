@@ -573,7 +573,7 @@ dependencies:
         repository: registry.k8s.io/autoscaling/vpa-updater
       source: registry.k8s.io/autoscaling
       ver:
-        tag: 0.14.0
+        tag: 1.0.0
     tests.image:
       name:
         repository: bitnami/kubectl
