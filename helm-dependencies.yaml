@@ -117,7 +117,7 @@ dependencies:
         repository: quay.io/jetstack/cert-manager-cainjector
       source: quay.io/jetstack
       ver:
-        tag: v1.12.1
+        tag: v1.12.5
     extraArgs.acme-http01-solver-image:
       manager: extra
       name:
