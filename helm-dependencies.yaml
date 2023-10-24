@@ -24,7 +24,7 @@ dependencies:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/external-provisioner
       source: public.ecr.aws/eks-distro
       ver:
-        tag: v3.5.0-eks-1-27-8
+        tag: v3.6.0-eks-1-28-latest
     sidecars.livenessProbe.image:
       name:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/livenessprobe
@@ -42,7 +42,7 @@ dependencies:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/external-provisioner
       source: public.ecr.aws/eks-distro
       ver:
-        tag: v3.5.0-eks-1-27-8
+        tag: v3.6.0-eks-1-28-latest
     sidecars.resizer.image:
       name:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/external-resizer
@@ -70,7 +70,7 @@ dependencies:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/external-provisioner
       source: public.ecr.aws/eks-distro
       ver:
-        tag: v3.5.0-eks-1-27-8
+        tag: v3.6.0-eks-1-28-latest
     sidecars.livenessProbe.image:
       name:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/livenessprobe
