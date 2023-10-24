@@ -269,7 +269,7 @@ dependencies:
         repository: docker.io/curlimages/curl
       source: docker.io
       ver:
-        tag: 8.2.0
+        tag: 8.2.1
     grafana.image:
       name:
         repository: docker.io/grafana/grafana
