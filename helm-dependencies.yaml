@@ -12,7 +12,7 @@ dependencies:
         repository: public.ecr.aws/ebs-csi-driver/aws-ebs-csi-driver
       source: public.ecr.aws/ebs-csi-driver
       ver:
-        tag: v1.21.0
+        tag: v1.24.0
     sidecars.attacher.image:
       name:
         repository: public.ecr.aws/eks-distro/kubernetes-csi/external-attacher
