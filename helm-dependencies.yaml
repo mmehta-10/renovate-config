@@ -285,7 +285,7 @@ dependencies:
         repository: docker.io/busybox
       source: docker.io
       ver:
-        tag: 1.31.1
+        tag: 1.36.1
     grafana.sidecar.image:
       name:
         repository: quay.io/kiwigrid/k8s-sidecar
