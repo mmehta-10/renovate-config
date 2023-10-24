@@ -1,0 +1,29 @@
+name: 'terraform-kubernetes-addons'
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/*'
+
+jobs:
+  renovate-run:
+    name: 'renovate:config'
+    if: github.ref != 'refs/heads/release'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac # v4
+
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        check-latest: true
+
+    - name: Install Renovate
+      run: npm install -g renovate
+
+    - name: Check Renovate configuraton
+      run: renovate-config-validator

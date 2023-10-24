@@ -1,0 +1,110 @@
+{
+  "extends": [
+    ":separateMajorReleases",
+    ":ignoreUnstable",
+    ":prImmediately",
+    ":updateNotScheduled",
+    ":automergeDisabled",
+    ":disableRateLimiting",
+    ":ignoreModulesAndTests",
+    ":autodetectPinVersions",
+    ":gitSignOff",
+    "group:monorepos",
+    "group:recommended",
+    "helpers:disableTypesNodeMajor",
+    "workarounds:all",
+    ":automergeDigest",
+    ":automergePatch",
+    ":automergeMinor",
+    ":dependencyDashboard"
+  ],
+  "baseBranches": ["main"],
+  "enabledManagers": [ "helmv3", "regex"],
+  "semanticCommits": "enabled",
+  "automergeType": "pr-comment",
+  "automergeComment": "renovate:merge",
+  "helmv3": {
+    "enabled": true,
+    "fileMatch": ["(^|/)helm-dependencies.yaml$"]
+  },
+   "customManagers": [
+      {
+        "customType": "regex",
+        "datasourceTemplate": "docker",
+        "fileMatch": ["(^|/)helm-dependencies.yaml$"],
+        "matchStrings": [
+          "name:\\n.*repository:\\s(?<depName>.*).*\\n.*\\n.*\\n.*tag:\\s(?<currentValue>.*)"
+        ]
+      }
+    ],
+  "reviewersFromCodeOwners": true,
+  "prHourlyLimit": 0,
+  "ignoreDeps": [
+    "admiralty",
+    "secrets-store-csi-driver",
+    "aws-for-fluent-bit",
+    "aws-node-termination-handler",
+    "aws-calico",
+    "cert-manager-csi-driver",
+    "flux",
+    "istio-operator",
+    "k8gb",
+    "karma",
+    "keda",
+    "keycloak",
+    "kong",
+    "kyverno",
+    "kyverno-crds",
+    "linkerd2",
+    "linkerd2-cni",
+    "linkerd-viz",
+    "prometheus-adapter",
+    "prometheus-cloudwatch-exporter",
+    "prometheus-blackbox-exporter",
+    "rabbitmq-cluster-operator",
+    "scaleway-webhook",
+    "sealed-secrets",
+    "strimzi-kafka-operator",
+    "thanos",
+    "tigera-operator",
+    "traefik",
+    "memcached",
+    "vault",
+    "velero",
+    "victoria-metrics-k8s-stack"
+  ],
+  "packageRules": [
+      {
+        "matchManagers": ["github-actions"],
+        "semanticCommitScope": "ci",
+        "semanticCommitType": "chore"
+      },
+      {
+        "matchManagers": ["pre-commit"],
+        "semanticCommitScope": "ci",
+        "semanticCommitType": "chore"
+      },
+      {
+        "matchManagers": ["helmv3"],
+        "semanticCommitScope": "charts",
+        "semanticCommitType": "fix",
+        "matchUpdateTypes": ["patch", "digest"]
+      },
+      {
+        "matchManagers": ["helmv3"],
+        "semanticCommitScope": "charts",
+        "semanticCommitType": "feat",
+        "matchUpdateTypes": ["major", "minor"]
+      },
+      {
+        "matchManagers": ["terraform"],
+        "semanticCommitScope": "tf",
+        "semanticCommitType": "feat",
+        "automerge": false
+      }, 
+      {
+        "matchDatasources": ["docker"],
+        "versioning": "semver-coerced"
+      }      
+    ]
+}
