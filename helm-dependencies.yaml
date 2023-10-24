@@ -394,7 +394,7 @@ dependencies:
         tag: 2.8.3
   name: promtail
   repository: https://grafana.github.io/helm-charts
-  version: 6.11.8
+  version: 6.11.9
 - containers:
     image:
       name:
