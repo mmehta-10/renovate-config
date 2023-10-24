@@ -567,7 +567,7 @@ dependencies:
         repository: registry.k8s.io/autoscaling/vpa-recommender
       source: registry.k8s.io/autoscaling
       ver:
-        tag: 0.14.0
+        tag: 1.0.0
     updater.image:
       name:
         repository: registry.k8s.io/autoscaling/vpa-updater
