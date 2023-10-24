@@ -411,7 +411,7 @@ dependencies:
         repository: k8s.gcr.io/node-problem-detector/node-problem-detector
       source: k8s.gcr.io/node-problem-detector
       ver:
-        tag: v0.8.13
+        tag: v0.8.14
   name: node-problem-detector
   repository: https://charts.deliveryhero.io/
   version: 2.3.5
