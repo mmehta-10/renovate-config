@@ -138,7 +138,7 @@ dependencies:
         repository: gcr.io/k8s-staging-gateway-api/admission-server
       source: gcr.io
       ver:
-        tag: v0.7.1
+        tag: v1.0.0
     image:
       name:
         repository: quay.io/jetstack/cert-manager-controller
