@@ -490,7 +490,7 @@ dependencies:
         tag: 1.4.0
   name: dex-k8s-authenticator
   repository: https://charts.sagikazarmark.dev/
-  version: 0.0.2
+  version: 0.0.3
 - containers:
     image:
       name:
