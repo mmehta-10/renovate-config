@@ -541,7 +541,7 @@ dependencies:
         repository: gcr.io/k8s-staging-sig-storage/csi-snapshotter
       source: gcr.io/k8s-staging-sig-storage
       ver:
-        tag: v6.2.2
+        tag: v6.3.4
     setup-csi-snapshotter.hostpath:
       manager: kustomize
       name:
