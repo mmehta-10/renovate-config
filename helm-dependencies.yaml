@@ -375,7 +375,7 @@ dependencies:
         repository: docker.io/grafana/loki
       source: docker.io/grafana
       ver:
-        tag: 2.8.3
+        tag: 2.8.11
     nginx-unprivileged.image:
       name:
         repository: docker.io/nginxinc/nginx-unprivileged
