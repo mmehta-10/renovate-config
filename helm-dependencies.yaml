@@ -580,7 +580,7 @@ dependencies:
       source: bitnami
 - name: goldilocks
   repository: https://charts.fairwinds.com/stable
-  version: 7.1.2
+  version: 8.0.2
   containers:
     image:
       name:
