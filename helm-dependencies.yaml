@@ -54,7 +54,7 @@ dependencies:
         repository: k8s.gcr.io/sig-storage/csi-snapshotter
       source: k8s.gcr.io/sig-storage
       ver:
-        tag: v6.2.1
+        tag: v8.0.1
   name: aws-ebs-csi-driver
   repository: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
   version: 2.21.0
