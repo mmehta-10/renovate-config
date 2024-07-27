@@ -548,7 +548,7 @@ dependencies:
         repository: k8s.gcr.io/sig-storage/hostpathplugin
       source: k8s.gcr.io
       ver:
-        tag: v1.11.0
+        tag: v1.14.0
     setup-snapshot-controller.snapshot-controller:
       manager: kustomize
       name:
