@@ -401,7 +401,7 @@ dependencies:
         repository: k8s.gcr.io/metrics-server/metrics-server
       source: k8s.gcr.io/metrics-server
       ver:
-        tag: v0.6.3
+        tag: v0.6.4
   name: metrics-server
   repository: https://kubernetes-sigs.github.io/metrics-server/
   version: 3.10.0
