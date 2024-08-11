@@ -477,7 +477,7 @@ dependencies:
         repository: ghcr.io/dexidp/dex
       source: ghcr.io/dexidp
       ver:
-        tag: v2.37.0
+        tag: v2.41.1
   name: dex
   repository: https://charts.dexidp.io
   version: 0.15.2
