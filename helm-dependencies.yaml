@@ -526,7 +526,7 @@ dependencies:
         tag: v1.0.38
   name: reloader
   repository: https://stakater.github.io/stakater-charts
-  version: 1.0.38
+  version: 1.0.121
 - containers:
     setup-csi-snapshotter.csi-provisioner:
       manager: kustomize
