@@ -156,7 +156,7 @@ dependencies:
         repository: quay.io/jetstack/cert-manager-webhook
       source: quay.io/jetstack
       ver:
-        tag: v1.12.1
+        tag: v1.12.13
   name: cert-manager
   manifests_version: v0.5.1
   repository: https://charts.jetstack.io
