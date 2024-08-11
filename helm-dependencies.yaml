@@ -391,7 +391,7 @@ dependencies:
         repository: docker.io/grafana/promtail
       source: docker.io/grafana
       ver:
-        tag: 2.8.3
+        tag: 2.9.10
   name: promtail
   repository: https://grafana.github.io/helm-charts
   version: 6.11.8
