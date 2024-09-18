@@ -131,7 +131,7 @@ dependencies:
         repository: k8s.gcr.io/ingress-nginx/kube-webhook-certgen
       source: k8s.gcr.io/ingress-nginx
       ver:
-        tag: v1.3.0
+        tag: v20230626
     gateway-api-admission.webhook:
       manager: kustomize
       name:
