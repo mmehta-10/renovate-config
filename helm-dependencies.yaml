@@ -560,7 +560,7 @@ dependencies:
   name: csi-external-snapshotter
 - name: vpa
   repository: https://charts.fairwinds.com/stable
-  version: 2.5.1
+  version: 4.6.0
   containers:
     recommender.image:
       name:
