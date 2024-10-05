@@ -381,7 +381,7 @@ dependencies:
         repository: docker.io/nginxinc/nginx-unprivileged
       source: docker.io/nginxinc
       ver:
-        tag: 1.25.1
+        tag: 1.27.2
   name: loki
   repository: https://grafana.github.io/helm-charts
   version: 5.8.11
