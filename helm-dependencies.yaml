@@ -144,7 +144,7 @@ dependencies:
         repository: quay.io/jetstack/cert-manager-controller
       source: quay.io/jetstack
       ver:
-        tag: v1.12.1
+        tag: v1.16.1
     startupapicheck.image:
       name:
         repository: quay.io/jetstack/cert-manager-ctl
